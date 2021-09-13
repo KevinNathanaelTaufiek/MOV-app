@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550309683718",
+    "project_id": "movproj-1c31e",
+    "storage_bucket": "movproj-1c31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550309683718:android:420c6ddae5441a08189987",
+        "android_client_info": {
+          "package_name": "com.kevinnt.movapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550309683718-qf8m1qgljv60ic4qfqeg0gllo31gbmo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLuVx0iRtlbxn9-A6KddRhyFOEw1Dyp3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550309683718-qf8m1qgljv60ic4qfqeg0gllo31gbmo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

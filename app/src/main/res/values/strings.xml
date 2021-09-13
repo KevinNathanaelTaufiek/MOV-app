@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MOVapp</string>
+    <string name="lewati">Lewati</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="pre_sale">Pre-Sale</string>
+    <string name="cashless">Cashless</string>
+
+    <string name="now_playing_desc">Lebih mudah mengetahui film\nyang sedang tayang</string>
+    <string name="pre_sale_desc">Tidak perlu khawatir ketinggalan\nupdate film terbaru</string>
+    <string name="cashless_desc">Gunakan e-wallet untuk transaksi\ntiket nonton</string>
+    <string name="memulai">Memulai</string>
+    <string name="signin">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="daftar">Daftar Akun Baru</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="photo">Photo</string>
+    <string name="welcome">Welcome,\nKevin N. Taufiek</string>
+    <string name="simpandanlanjutkan"><![CDATA[Simpan & Lanjutkan]]></string>
+    <string name="uploadnanti">Upload Nanti</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="pilihbangku">Pilih Bangku</string>
+    <string name="checkout">Checkout</string>
+    <string name="bayarsekarang">Bayar Sekarang</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="when">When</string>
+    <string name="dateandtime"><![CDATA[Date & Time]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="totalpembayaran">Total Pembayaran</string>
+    <string name="ewallet">E-Wallet</string>
+    <string name="totalbalance">Total Balance</string>
+    <string name="seats">Seats</string>
+    <string name="simpan">Simpan</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="saldotersedia">Saldo Tersedia</string>
+    <string name="historytransaksi">History Transaksi</string>
+    <string name="mywallet">My Wallet</string>
+    <string name="history">History</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
