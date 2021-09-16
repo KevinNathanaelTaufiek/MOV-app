@@ -46,6 +46,7 @@ class MovieDetailActivity : AppCompatActivity() {
 
         tv_judul_detail.setText(data!!.judul)
         tv_genre_detail.setText(data!!.genre)
+        tv_rating_detail.setText(data!!.rating)
         tv_sinopsis.setText(data!!.desc)
 
         Glide.with(this)

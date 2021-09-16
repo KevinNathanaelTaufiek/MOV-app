@@ -10,6 +10,7 @@ import com.kevinnt.movapp.R
 import com.kevinnt.movapp.sign.signup.SignUpActivity
 import com.kevinnt.movapp.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import java.lang.Exception
 
 
 class SignInActivity : AppCompatActivity() {
@@ -47,7 +48,11 @@ class SignInActivity : AppCompatActivity() {
                 et_password.requestFocus()
             }
             else{
-                pushLogin(iusername,ipassword)
+                try {
+                    pushLogin(iusername,ipassword)
+                } catch (e:Exception){
+                    Toast.makeText(this, "Mohon cek kembali username dan password anda", Toast.LENGTH_SHORT).show();
+                }
             }
         }
 

@@ -55,6 +55,7 @@ class HomeFragment : Fragment() {
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
 
+                filmList.clear()
                 for (data in dataSnapshot.children){
                     var film = data.getValue(Film::class.java)
                     filmList.add(film!!)
