@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_bg_blue"
     tools:context=".home.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -83,8 +84,9 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_comming_soon"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
