@@ -37,7 +37,7 @@ class SignUpActivity : AppCompatActivity() {
                 et_email.error = "Email tidak boleh kosong!"
                 et_email.requestFocus()
             } else{
-                saveUser(et_username.text.toString(),et_password.text.toString(),et_nama.text.toString(),et_email.text.toString())
+                saveUser(et_username.text.toString(),et_email.text.toString(),et_nama.text.toString(),et_password.text.toString())
             }
         }
     }
