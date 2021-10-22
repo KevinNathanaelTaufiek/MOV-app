@@ -6,5 +6,5 @@ class User {
     var email:String ?=""
     var nama:String ?=""
     var url:String ?=""
-    var saldo:String ?=""
+    var saldo:Int ?=0
 }
